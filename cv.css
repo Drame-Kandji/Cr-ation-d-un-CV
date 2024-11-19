@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+    font-family: 'proppins', sans-serif;
+}
+
+body{
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+.principale{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+}
+ 
+.principale .left{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profile{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items:center;
+padding-bottom: 50px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile .img1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .img1 img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+
+}
+.profile h2{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+    
+}
+.contact{
+    padding-top: 40px;
+}
+.titre{
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+margin-bottom: 20px;
+ 
+}
+.contact ul{
+position: relative;
+
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4 ;
+}
+.contact ul li span{
+   color: #fff; 
+   font-weight: 300;
+}
+
+.education li{
+    margin-bottom: 15px;
+}
+.education h5{
+    color: #03a9f4 ;
+    font-weight: 500;
+}
+.education h4:nth-child(2){
+     color: #fff;
+     font-weight: 500;    
+}
+.langues{
+    color: #fff;
+}
+
+.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+.langues .percent{
+    position: relative;
+    width: 100px;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.langues .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+
+}
+
+.principale .right{
+    position: relative;
+    background: #fff ;
+    padding: 40px;
+} 
+
+#ft{
+    color: #fff;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.titre2{
+    color: #03a9f4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 2px solid ;
+    background-color: #0d5576;
+    width: 55%;
+    margin-left: 30%;
+
+}
+p{
+    color: #333;
+
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .company {
+    min-width: 150px;
+}
+.about .box .company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+
+.text1{
+    margin-left: 51px;
+}
+.text2{
+    margin-left: 77px;
+}
+.text3{
+    margin-left: 53px;
+}
+.proffessionnelles .box{
+    position: relative;
+    width: 100%;
+    left: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.proffessionnelles .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+
+}
+.proffessionnelles .box .percent{
+    position: static;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.proffessionnelles .box .percent div{
+    position: re;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:#2b8dba;
+}
+.centre ul{
+    display: grid;
+    left: 50px;
+    grid-template-columns: repeat(4,1fr);
+}
+.centre ul li{
+    list-style-type: square;
+    color: #333;
+    font-weight: 500;
+    margin: 5px 0;
+}
